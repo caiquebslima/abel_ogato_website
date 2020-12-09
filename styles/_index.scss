@@ -1,0 +1,39 @@
+body {
+  background-color: #ffffff;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+  cursor: pointer;
+}
+.home-container {
+  width: 100%;
+
+  .first-page {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    &__image-container {
+      width: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &__links {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      a {
+        padding: 5px;
+      }
+    }
+  }
+}
