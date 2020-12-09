@@ -67,6 +67,7 @@ export default function Slider() {
         <Link href="/correndo-atras">
           <a>
             <img src="./correndo_atras_dos_sonhos.jpeg" alt="" />
+            {/* <span>I - Correndo Atrás</span> */}
           </a>
         </Link>
       </animated.div>
@@ -79,6 +80,7 @@ export default function Slider() {
         <Link href="/clareira">
           <a>
             <img src="./clareira.jpeg" alt="" />
+            {/* <span>II - Clareira</span> */}
           </a>
         </Link>
       </animated.div>
@@ -91,6 +93,7 @@ export default function Slider() {
         <Link href="/arena">
           <a>
             <img src="./arena.jpeg" alt="" />
+            {/* <span>III - Arena</span> */}
           </a>
         </Link>
       </animated.div>
@@ -103,6 +106,7 @@ export default function Slider() {
         <Link href="/reminiscencias">
           <a>
             <img src="./reminiscencias.jpeg" alt="" />
+            {/* <span>IV - Reminiscências</span> */}
           </a>
         </Link>
       </animated.div>
@@ -115,6 +119,7 @@ export default function Slider() {
         <Link href="/pterodactilo">
           <a>
             <img src="./pterodactilo.jpeg" alt="" />
+            {/* <span>I - Pterodáctilo</span> */}
           </a>
         </Link>
       </animated.div>

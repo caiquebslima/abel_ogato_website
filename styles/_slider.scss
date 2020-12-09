@@ -18,6 +18,22 @@
       height: 100%;
       object-fit: cover;
     }
+    span {
+      position: absolute;
+      width: 100%;
+
+      color: #fff;
+      background: rgba($color: #000, $alpha: 0.7);
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.8rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      font-weight: 600;
+    }
   }
 }
 
