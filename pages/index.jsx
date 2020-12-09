@@ -2,11 +2,8 @@ import React, { useState } from 'react'
 import Head from 'next/head'
 
 import Header from '../components/Header'
-
+import ImageContainer from '../components/ImageContainer'
 import Slider from '../components/Slider'
-import IconInstagram from '../Icons/IconInstagram'
-import IconSpotify from '../Icons/IconSpotify'
-import IconYoutube from '../Icons/IconYoutube'
 
 export default function Home() {
   return (
@@ -26,17 +23,23 @@ export default function Home() {
         </div>
         <div className="first-page__links">
           <a href="https://www.instagram.com/abel_ogato/">
-            <i class="fab fa-instagram fa-2x"></i>
+            <i className="fab fa-instagram fa-2x"></i>
           </a>
           <a href="https://open.spotify.com/playlist/66GHVc4iarD86yHuhNRZ5N">
-            <i class="fab fa-spotify fa-2x"></i>
+            <i className="fab fa-spotify fa-2x"></i>
           </a>
           <a href="https://www.youtube.com/user/cbslima">
-            <i class="fab fa-youtube fa-2x"></i>
+            <i className="fab fa-youtube fa-2x"></i>
           </a>
           <a href="https://bandcamp.com/abelogato">
-            <i class="fab fa-bandcamp fa-2x"></i>
+            <i className="fab fa-bandcamp fa-2x"></i>
           </a>
+        </div>
+        <div className="first-page__text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            recusandae?
+          </p>
         </div>
       </div>
       <div className="slider-container">
