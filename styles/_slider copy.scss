@@ -9,7 +9,7 @@
     padding-top: 250%;
     position: relative;
     flex-shrink: 0;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       padding-top: 0;
       height: 100%;
       flex-shrink: 1;
@@ -24,14 +24,14 @@
       object-fit: cover;
       z-index: 9;
 
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         position: static;
       }
     }
     span {
       visibility: hidden;
       opacity: 0;
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(sm) {
         z-index: 10;
         background: #000000;
         color: #fff;

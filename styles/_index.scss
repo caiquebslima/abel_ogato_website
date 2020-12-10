@@ -4,6 +4,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   width: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 a {
   text-decoration: none !important;

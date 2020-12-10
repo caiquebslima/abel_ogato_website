@@ -18,9 +18,7 @@ export default function Slider() {
       return
     }
 
-    // let moveY = (my / window.innerHeight) * 100
     let moveX = (mx / window.innerWidth) * 100
-    // console.log({ moveX })
 
     if (moveX > 0 && activeItem === 0) {
       return
@@ -38,14 +36,12 @@ export default function Slider() {
     }
 
     moveX = moveX - 100 * activeItem
-    console.log({ moveX })
 
     set({
       x: [moveX],
     })
   })
-  // console.log({ y })
-  console.log({ activeItem })
+
   const animateNextSlide = direction => {
     setAnimating(true)
     const value = direction === 'left' ? 1 : -1
@@ -67,7 +63,7 @@ export default function Slider() {
         <Link href="/correndo-atras">
           <a>
             <img src="./correndo_atras_dos_sonhos.jpeg" alt="" />
-            {/* <span>I - Correndo Atrás</span> */}
+            <span>Ato I</span>
           </a>
         </Link>
       </animated.div>
@@ -80,7 +76,7 @@ export default function Slider() {
         <Link href="/clareira">
           <a>
             <img src="./clareira.jpeg" alt="" />
-            {/* <span>II - Clareira</span> */}
+            <span>Ato II</span>
           </a>
         </Link>
       </animated.div>
@@ -93,7 +89,7 @@ export default function Slider() {
         <Link href="/arena">
           <a>
             <img src="./arena.jpeg" alt="" />
-            {/* <span>III - Arena</span> */}
+            <span>Ato III</span>
           </a>
         </Link>
       </animated.div>
@@ -106,7 +102,7 @@ export default function Slider() {
         <Link href="/reminiscencias">
           <a>
             <img src="./reminiscencias.jpeg" alt="" />
-            {/* <span>IV - Reminiscências</span> */}
+            <span>Ato IV</span>
           </a>
         </Link>
       </animated.div>
@@ -119,7 +115,7 @@ export default function Slider() {
         <Link href="/pterodactilo">
           <a>
             <img src="./pterodactilo.jpeg" alt="" />
-            {/* <span>I - Pterodáctilo</span> */}
+            <span>Ato V</span>
           </a>
         </Link>
       </animated.div>

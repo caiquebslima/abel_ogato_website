@@ -40,6 +40,10 @@ export default function Home() {
                 <span>contato</span>
               </a>
             </Link>
+
+            <a href="#musicas">
+              <span>músicas</span>
+            </a>
           </div>
           <div className="social">
             <a href="https://www.instagram.com/abel_ogato/">
@@ -57,7 +61,7 @@ export default function Home() {
           </div>
         </article>
       </section>
-      <section className="slider-container">
+      <section className="slider-container" id="musicas">
         <Slider />
       </section>
     </div>
