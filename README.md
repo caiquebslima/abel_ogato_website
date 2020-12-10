@@ -1,3 +1,5 @@
 # Abel, o Gato
 
-Está página utiliza Next.js para criar um website para a banda Abel, o Gato, contendo imagens relacionadas com suas músicas, suas letras e algumas informações
+This page uses Next.js to create a simple website with information about the band Abel, o Gato.
+# Check it out on https://abelogato.herokuapp.com/ !
+
