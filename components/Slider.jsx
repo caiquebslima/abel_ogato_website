@@ -6,7 +6,7 @@ import { useDrag } from 'react-use-gesture'
 // import ImageContainer from '../components/ImageContainer'
 
 export default function Slider() {
-  const threshold = 15
+  const threshold = 30
   const [animating, setAnimating] = useState(false)
   const [{ x }, set] = useSpring(() => ({
     x: [0],
