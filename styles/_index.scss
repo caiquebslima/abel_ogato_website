@@ -17,7 +17,7 @@ a {
   width: 100%;
 
   .first-page {
-    height: 100vh;
+    height: 96vh;
     width: 100%;
     position: relative;
     &__image-container {
@@ -41,7 +41,7 @@ a {
     }
     &__links {
       width: 100%;
-      height: 20%;
+      height: 30%;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -54,15 +54,19 @@ a {
         flex-direction: column;
         position: absolute;
         left: 0;
-        padding: 0 20px;
+        top: 0;
+        padding: 10 20px;
         font-size: 1.4rem;
         font-weight: 500;
+        padding: 10px 20px;
 
         @include media-breakpoint-up(sm) {
-          left: 50%;
-          transform: translateX(-50%);
-          padding: 0;
+          // left: 50%;
+          // transform: translateX(-50%);
+          padding: 50px 0;
           flex-direction: row;
+          width: 100%;
+          justify-content: flex-end;
         }
         a {
           ::after {
@@ -85,7 +89,7 @@ a {
         top: 0;
         padding: 10px;
         a {
-          padding: 5px;
+          padding: 10px;
         }
       }
     }
