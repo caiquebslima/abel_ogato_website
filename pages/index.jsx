@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <script
           src="https://kit.fontawesome.com/9e6e04fb29.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
         <title>Abel, o Gato</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
