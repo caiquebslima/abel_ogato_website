@@ -6,8 +6,8 @@ export default function Sobre() {
     <div>
       <Header />
       <section className="secondary__container">
-        <ImageContainer src={'./banda.jpg'} link={''} title={''} />
         <article className="secondary__text">
+          <ImageContainer src={'./banda.jpg'} link={''} title={''} />
           <h2 className="secondary__text--title">Sobre</h2>
 
           <p>

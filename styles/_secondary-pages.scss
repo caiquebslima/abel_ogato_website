@@ -4,15 +4,23 @@
   align-items: center;
   justify-content: center;
   .secondary__text {
-    max-width: 600px;
+    max-width: 680px;
     padding-bottom: 50px;
 
     &--title {
       text-align: center;
       font-weight: 700;
       line-height: 40px;
+      letter-spacing: -0.016em;
       margin-top: 0.64em;
+      margin-bottom: -0.27em;
       font-size: 32px;
+      @include media-breakpoint-up(md) {
+        letter-spacing: -0.011em;
+        line-height: 56px;
+        margin-top: 0.6em;
+        font-size: 46px;
+      }
     }
 
     p {
@@ -24,6 +32,11 @@
       letter-spacing: -0.003em;
       padding: 0 20px;
       text-align: justify;
+      @include media-breakpoint-up(md) {
+        line-height: 32px;
+        margin-top: 2em;
+        font-size: 21px;
+      }
     }
   }
 }
