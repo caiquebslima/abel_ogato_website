@@ -5,6 +5,9 @@
 <img src="https://camo.githubusercontent.com/973c99d17e4ce72d08c4433449045d8391948711f11ac5f328a585e2a7bc8663/68747470733a2f2f692e696d6775722e636f6d2f515a6f776e68672e706e67" alt="Logo" width="80" height="80">
 
 
+[linkedin-shield]][linkedin-url]
+
+
 ## About The Project
 
 This project uses Next.js to create a responsive website with information about the band Abel, o Gato and arts related to their music.
